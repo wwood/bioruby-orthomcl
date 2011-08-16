@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "bio-bio-orthomcl"
-  gem.homepage = "http://github.com/wwood/bioruby-bioruby-orthomcl"
+  gem.name = "bio-orthomcl"
+  gem.homepage = "http://github.com/wwood/bioruby-orthomcl"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Ruby wrappings and useful methods for the OrthoMCL database of protein orthology}
+  gem.description = %Q{Ruby wrappings and useful methods for the OrthoMCL database of protein orthology}
   gem.email = "donttrustben near gmail.com"
   gem.authors = ["Ben J Woodcroft"]
   # dependencies defined in Gemfile
@@ -47,7 +47,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "bio-bio-orthomcl #{version}"
+  rdoc.title = "bio-orthomcl #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
